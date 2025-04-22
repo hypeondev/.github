@@ -1,0 +1,47 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por tirar um tempo para reportar uma bug!
+  
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Conte para nós, o que esperava que acontecesse?
+      placeholder: Tell us what you see!
+      value: "Ocorreu um erro!"
+    validations:
+      required: true
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Qual plataforma você viu o problema?
+      multiple: true
+      options:
+        - Mobile Android
+        - Mobile IOS
+        - Admin
+        - API
+  - type: dropdown
+    id: perfil
+    attributes:
+      label: Qual tipo de perfil você está usando?
+      multiple: true
+      options:
+        - Admin
+        - Usuário
+        - Produtor
+        - Staff      
+  - type: textarea
+    id: logs
+    attributes:
+      label: Saída de log relevante
+      description: Por favor copie e cole uma saída de log relevante. Será formatado automaticamente em código, sem necessidade de aspas
+      render: shell
