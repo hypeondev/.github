@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report.
+name: Bug Report 2
+description: Reporte um erro.
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -8,14 +8,13 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        Obrigado por tirar um tempo para reportar uma bug!
+      value: Obrigado por tirar um tempo para reportar uma bug!
   
     id: descricao
     attributes:
       label: O que aconteceu?
       description: Conte para nós, o que esperava que acontecesse?
-      placeholder: Tell us what you see!
+      placeholder: Conte para nós!
       value: "Ocorreu um erro!"
     validations:
       required: true
