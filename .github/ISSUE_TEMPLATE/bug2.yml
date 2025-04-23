@@ -1,4 +1,4 @@
-name: Bug Report 2
+name: Bug Report (português)
 description: Reporte um erro.
 title: "[Bug]: "
 labels: ["bug", "triage"]
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes: 
       value: Obrigado por tirar um tempo para reportar uma bug!  
-  - type: input      
+  - type: textarea      
     id: descricao
     attributes:
       label: O que aconteceu?
