@@ -7,9 +7,9 @@ assignees:
   - octocat
 body:
   - type: markdown
-    attributes:
-      value: Obrigado por tirar um tempo para reportar uma bug!
-  
+    attributes: 
+      value: Obrigado por tirar um tempo para reportar uma bug!  
+  - type: input      
     id: descricao
     attributes:
       label: O que aconteceu?
@@ -39,7 +39,7 @@ body:
         - Produtor
         - Staff      
   - type: textarea
-    id: logs
+    id: logs2
     attributes:
       label: Saída de log relevante
       description: Por favor copie e cole uma saída de log relevante. Será formatado automaticamente em código, sem necessidade de aspas
